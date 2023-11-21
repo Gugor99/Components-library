@@ -10,6 +10,7 @@ body {
     text-align: center;
     font-family: Inter;
     background-color: #F5F5F5;
+    margin: 2em;
 }
 
 h5{
@@ -202,16 +203,9 @@ h5{
     padding-bottom: 1em;
 }
 
-/*.prof-pic{
-    display: flex;
-    width: 100%;
-    border-radius: .2em;
-    position: relative;
-    bottom: 6em;
-    margin: 0;
-    max-width: 300px;
-    align-self: center;
-}*/
+.test-container:nth-child(2){
+    margin-bottom: 5em;
+}
 
 .cropped{
     position: relative;
