@@ -2,7 +2,6 @@ import React from 'react'
 import Banner from './Banner'
 
 export default function Banners(){
-    const titleArray = ["Update available", "Attention", "There is a problem with your application","Congratulations!"]/*???*/
     const defaultText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam."
     
     return(

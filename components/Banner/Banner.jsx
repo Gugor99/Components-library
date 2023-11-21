@@ -1,4 +1,5 @@
 import React from 'react'
+import successImage from '../../images/success.png';
 
 export default function Banner({children = null, theme= "neutral", title}){
     
@@ -6,7 +7,7 @@ export default function Banner({children = null, theme= "neutral", title}){
     
     return(
         <div className= {`banner-container ${theme} ${singleLineHeigthClass}`}>
-            <img className="banner-icon" src={`../../images/${theme}.png`}/>
+            <img className="banner-icon" src={successImage}/>
             <div className="banner-text">
                 <h3>{title}</h3>
                 <p className={`p-${theme}`}>{children}</p>
@@ -14,3 +15,5 @@ export default function Banner({children = null, theme= "neutral", title}){
         </div>
     )
 }
+
+/*`../../images/${theme}.png`*/
